@@ -8,7 +8,8 @@ router.get('/', function (req, res) {
 
 // define the about route
 router.get('/about', function (req, res) {
-    res.send('About Page')
+    //if you dont want templating
+    res.send('<h1>About Page</h1>')
 })
 
 module.exports = router
