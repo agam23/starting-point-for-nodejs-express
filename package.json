@@ -1,0 +1,24 @@
+{
+  "name": "starting-point-for-nodejs-express",
+  "version": "1.0.0",
+  "description": "Complete starting template to start building apps with nodejs and express. Routing and pug templating included.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agam23/starting-point-for-nodejs-express.git"
+  },
+  "author": "Agam Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agam23/starting-point-for-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/agam23/starting-point-for-nodejs-express#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
